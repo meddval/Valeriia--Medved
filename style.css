@@ -1,0 +1,122 @@
+
+
+
+
+.body .html {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-image: url("1.png");
+    background-size: 263px 612px;
+    height: 612px;
+    width: 263px;
+}
+
+.contact {
+    margin-top: 487px;
+    color: white;
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+.content{
+    padding-left: 80px;
+}
+
+.inline{
+    display: inline;
+    float: left;
+}
+
+
+body{
+    font-family: Arial;
+    background-color:white;
+    
+}
+
+ .table_of_contents{
+ background-color:white;
+
+ }
+
+.head_title{
+  
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 5px;
+    color: #000000;
+
+}
+
+.person_guote{
+   
+  
+    font-size: 18px;
+    line-height: 21px;
+     
+    color: #666666;
+    margin-bottom: 75px;
+    
+}
+
+
+.information_about_person{
+background-color: #F9F9F9;
+background-size: 507px 632px;
+position: absolute;
+width: 632px;
+height: 507px;
+left: 268px;
+top: 113px;
+padding-left: 82px;
+
+font-size: 13px;
+
+}
+
+.drive{
+padding-top:32px;
+
+
+}
+
+.goals{
+padding-top: 36px;
+
+
+
+}
+
+
+.hesitations{
+padding-top: 36px;
+padding-bottom: 64px;
+padding-right: 45px;
+
+}
+
+.logo{
+    position: absolute;
+width: 85px;
+height: 30px;
+left: 801px;
+top: 575px;
+
+font-size: 24px;
+line-height: 29px;
+margin-left: 97px;
+margin-top: -6px;
+    
+   
+   
+    
+    
+    
+    color: #000000;
+    
+
+}
