@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+    
+}
+.allDocum{
+    display:flex;
+    flex-direction: column;
+    margin: auto;  
+    width: 30%;  
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    color: rgb(182, 63, 63);
+    opacity: 10%;
+    }
+
+.headForm{
+    display: flex;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    background-color: white;
+    border: none;
+    box-shadow: inset 0 -2px 1px rgb(0 0 0 / 3%);
+    
+}
+.enter{
+    border: none;
+    outline: none;
+   padding: 10px;
+    width: 100%;   
+    box-shadow: inset 0 -2px 1px rgb(0 0 0 / 3%);
+}
+
+::placeholder{
+    opacity: 20%;
+    font-style: italic;
+}
+.completedAll{
+    display: flex;
+    box-sizing: border-box;
+    width: 5%;
+}
+
+.checked{
+    text-decoration: line-through;
+    background:rgb(182, 63, 63);
+    opacity: 30%;
+}
+.checkB{
+     -webkit-appearance: none;
+    appearance: none; 
+}
+.todoMain{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    background-color: white;
+    }
+.list{
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 10px 5px;
+    border-top: solid;
+    border-color: rgb(223, 203, 203);
+    border-width: 0.1px;
+  }
+.button-link{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.link{
+    margin: 0;
+    padding: 0 20px;
+}
+
+.footer{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: rgb(223, 203, 203);
+    border-width: 0.3px;
+}
+.inform-main{
+    font-size: 1rem;
+    color: rgb(106, 88, 88);
+    margin: 10px;
+    
+}
+a:hover{
+    border: solid;
+    border-color: rgb(228, 209, 209);
+    border-width: 0.3px;
+    border-radius: 3px;
+}
+.list{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.delBtn{
+    border-radius: 5px;
+    background: rgb(236, 10, 10)
+}
+.delBtn:hover{
+    cursor: pointer;
+    width: 15%;
+    font-weight: bolder;
+}
+.submitBtn{
+    display: none;
+}
+
+.complBTN{
+    border: none;
+    outline: none;
+    background: grey
+}
+
+

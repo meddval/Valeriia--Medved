@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todolist.css">
+    <script defer src="todo.js"></script>
+    
+</head>
+<body >
+    <div class="allDocum">
+            <h1 class="header">todos</h1>
+            <form class="headForm">
+                    <label class="completedAll">
+                        <input class="checkB" type="checkbox">
+                        <span></span>
+                    </label>
+                    <input class="enter"  id="enterText" placeholder ="What needs to be done?" autofocus="">
+                    <input type="submit" class="submitBtn">
+                    <!-- <button type="button" class="complBTN" id="completeBtn"> Complete</button> -->
+            </form>
+            <div class="main">
+                <ul class="todoMain" id="todoMainID">
+                                                       
+                   
+                </ul>
+            </div>
+            <div class="footer" >
+                <div class="inform-main">
+                    <b id="itemsAll"> </b> all  items /<b id="itemsComplet"></b> completed
+                </div>
+                <ul class="button-link">
+                    <li class="link">
+                         <a href="" style="color: grey; text-decoration: none"> All </a> 
+                    </li>
+                    <li class="link">
+                         <a  href=""  style="color: grey; text-decoration: none"> Active</a>
+                    </li>
+                    <li class="link"> 
+                        <a  href=""  style="color: grey; text-decoration: none"> Completed</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    
+    
+</body>
+</html>
